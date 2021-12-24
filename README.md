@@ -46,14 +46,6 @@ rails db:seed
 rails server
 ```
 
-## Troubleshooting
-
-If you encounter any issues with webpacker, try to run
-
-```ruby
-bundle exec rake webpacker:install
-```
-
 ## Authors
 
 👤 **Ricardo R**

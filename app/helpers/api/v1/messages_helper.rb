@@ -1,8 +1,2 @@
-# frozen_string_literal: true
-
-module Api
-  module V1
-    module MessagesHelper
-    end
-  end
+module Api::V1::MessagesHelper
 end

@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get 'static/index'
   resources :messages
   namespace :api do
-    namespace :v1, defaults: {format: :json} do
+    namespace :v1, defaults: { format: :json } do
       get 'random_greeting', to: 'messages#random_greeting'
     end
   end
